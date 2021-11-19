@@ -1,0 +1,216 @@
+/*=== basic setup====*/
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Titillum web',sans-serif;
+}
+ul li {
+    list-style-type: none;
+   
+}
+/*===heading==*/
+h1{
+    font-size: 42px;
+    color: #fff;
+}
+/*====reuseable componanted*/
+.row{
+    max-width: 1140px;
+    margin: 0 auto ;
+}
+section{
+    padding: 80px 0px;
+}
+h2{
+    text-align: center;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 600px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+h2::after{
+    content: "";
+    display: block;
+    height: 4px ;
+    background-color: #14a58c;
+    width: 85px;
+    margin: auto;
+    margin-top: 10px;
+}
+h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.box p{
+    font-size: 16px;
+    margin-top: 15px;
+}
+/*---buttom-*/
+.btn:link,
+.btn:visited .btn {
+    background-color:#333;
+    border-bottom: 3px solid #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    padding: 15px 60px;
+    border-radius: 3px;
+    color:#fff;
+    display: inline-block;
+    margin-top:45px;
+}
+ /*--paragraph-*/
+ .describetion{
+     font-size: 18px;
+     font-weight: 60%;
+     margin-left:20%;
+     margin-top: 20px;
+ }
+/*====header section*/
+header {
+    background: linear-gradient(rgba(135,80,156,0.9),rgba(135,80,156,0.9)), url(img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 85vh ;
+    position: relative;
+}
+
+.logo {
+    height: 35px;
+    margin-top: 35px;
+    float: left;
+ 
+}
+.main-nav{
+    float: right;
+
+}
+.main-nav li {
+    display:inline-block;
+    margin-top: 40px;
+}
+.main-nav li:first-child{
+    margin-left:0;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+    font-size: 16px;
+    transition: .3s;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 30px;
+    background: rgba(100,58, 121
+    , 0);
+    padding: 8px 16px;
+    border-radius: 3px;
+    display:inline-block
+    
+    
+}
+.main-nav li.active a{
+    background: rgba(100,58, 121,1);
+}
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited {
+    background: rgba(100,58, 121,1);
+}
+
+
+
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.btn-hero:link,
+.btn-hero:visited{
+    background-color: #eb7d4b;
+    border-color: #c86a40;
+    color:#fff;
+
+}
+.service-section{
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(rgba(23,194,154,0.9),rgba(23,194,156,0.9)), url(img/services-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center top;
+    background-attachment: fixed;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service-section img{
+    margin:auto;
+    height: 126px;
+    margin-top: 45px;
+    margin-bottom: 35px;
+
+
+}
+.team-section{
+    background: linear-gradient(rgba(231,241,248,0.9),rgba(231,241,248,0.9)),url(/Starter_Pack/resources/css/img/team-bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team-header{
+    color: #000;
+    text-align: center;
+}
+.team-img{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.special{
+    color:#92f0dc;
+    text-transform: capitalize;
+}
+.pro-section{
+    background: #eb7d4b;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+
+}
+.prot-img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.prot-img h5{
+    padding-top: 20px;
+    padding-bottom: 15px;
+} 
+.nice :link,
+.nice:visited{
+background-color: cyan ;
+border-color: darkmagenta ;
+    color:#fff;
+}
+.botton-class button{
+    background: #14a58c ;
+
+}
